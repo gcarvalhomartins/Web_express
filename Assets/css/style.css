@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.container_menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.logo h1{
+    font-weight: 250;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 3rem 2rem;   
+}
+.banner{
+    display: flex;
+    width: 100%;
+    background-image: url(/Assets/img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.banner_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.overllay{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.conteudo_do_banner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.tittle_do_banner{
+    display: flex;
+    width: 100%;
+    color: wheat;   
+    padding: 2rem 4rem;
+    
+}
+.tittle_do_banner h1{
+    padding-top: 5rem;
+    width: 100%;
+    color: #00a9a7;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    
+}
+.paragrafo_banner{
+    color: white;
+    padding: 1rem 7rem;
+}
+.button_banner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 3rem;
+}
+.button_banner button{
+    width: 15rem;
+    height: 3.5rem;
+    background-color: #00a9a7;
+    border: none;
+    border-radius: 4rem;
+    font-size: 1.7rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+.button_banner a{
+    text-decoration: none;
+    color: white;
+}
+.button_banner button:hover{
+    width: 15rem;
+    height: 3.5rem;
+    background-color: #087270;
+    border: none;
+    border-radius: 4rem;
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+.button_banner a:hover{
+    border-bottom: solid 1px white ;
+    color: white;
+}
+
+/* complementares */
+
+.complementares{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 2rem;
+    
+}
+.container_complementares{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.container_tittle{
+    width: 100%;
+    display: flex;
+}
+
+.tittle_container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0;
+   
+}
+.tittle_container h1{
+    color: #00a9a7;
+    font-weight: normal;
+}
+.tittle_container h1::after{
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 0.1rem;
+    background-color: #00a9a7;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 2rem;
+    
+}
+.icon_complementares{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+.icon_complementares i{
+    color: #946b62;
+    
+}
+.conteudo_complementares{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width: 33.3%;
+    padding: 2rem 4rem;
+}
+
+/* avatar e conteudo sobre equipe */
+.conteudo_sobre_equipe{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e3e3e2;
+    padding-bottom: 1.5rem;
+}
+
+.container_sobre_equipe{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.container_conheca_nossa_equipe{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+   
+}
+.tittle_equipe{
+    width: 100%;
+    padding: 2rem 4rem;
+
+}
+.tittle_equipe h1{
+    color: #00a9a7;
+    font-weight: normal;
+
+}
+.tittle_equipe h1::after{
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 0.1rem;
+    background-color: #00a9a7;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 2rem;
+}
+.avatar_box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2.5rem 4rem;
+    
+   
+}
+
+.tittle_avatar_box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e3e3e2;
+    width: 76%;
+    height: 2rem;
+    padding-left: 0.9rem;
+    
+}
+.tittle_avatar_box h1{
+    font-weight: normal;
+}
+.conteudo_avatar_box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 76%;
+}
+.div_img_avatar img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+
+/* sobre equipe */
+.descricao_sobre_equipe{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    
+}
+.tittle_equipe_2{
+    width: 100%;
+    padding: 2rem 4rem;
+}
+.tittle_equipe_2 h1{
+    color: #00a9a7;
+    font-weight: normal;
+
+}
+.tittle_equipe_2 h1::after{
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 0.1rem;
+    background-color: #00a9a7;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 2rem;
+}
+.texto_sobre_equipe{
+    width: 100%;
+    padding: 0rem 4rem;
+}
+/* button sobre equipe */
+.button_sobre_equipe{
+    width: 50%;
+    height: 10%;
+    padding-left: 4rem;
+    
+}
+.button_sobre_equipe button{
+    width: 150px;
+    height: 46px;
+    background-color: #30d5ad;
+    border: none;
+    cursor: pointer;
+}
+.button_sobre_equipe a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+.button_sobre_equipe button:hover{
+    background-color: #26b38f;
+}
+
+
+
+
+
+
+
+
